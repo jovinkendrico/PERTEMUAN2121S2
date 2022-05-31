@@ -5,7 +5,12 @@ public class App {
         System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
         System.out.println(pesan + " Tahun " + tahun);
         System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+        
         hitungLuasKubus();
+
+        Lingkaran lingkaran = new Lingkaran();
+        lingkaran.r=15;
+        lingkaran.tampilkanLuasLingkaran();
     }
      
     //hitung volume kubus => V = s3
@@ -15,7 +20,7 @@ public class App {
         v = s*s*s;
         System.out.println("Menghitung Volume Kubus");
         System.out.println("Panjang Sisi = " + s + " cm");
-        System.out.println("Volume Kubus = " + v + " cm");
+        System.out.println("Volume Kubus = s*s*s = " + v + " cm3");
 
     }
 }
