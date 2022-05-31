@@ -1,3 +1,4 @@
+package bangunruang;
 public class Lingkaran {
 
     //Atribut
@@ -14,7 +15,7 @@ public class Lingkaran {
     //Menampilkan Luas Lingkaran
     public void tampilkanLuasLingkaran(){
         hitungLuasLingkaran();
-        System.out.println("Luas Lingkaran = (jari = " + r + "cm)= " + luas +" cm");
+        System.out.println("Luas Lingkaran = (jari = " + r + "cm) = " + luas +" cm");
     }
     
 }
